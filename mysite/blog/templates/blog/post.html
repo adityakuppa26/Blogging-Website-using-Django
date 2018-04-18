@@ -1,0 +1,7 @@
+{% extends "personal/header.html" %}
+
+{% block content %}
+	<h2>{{post.title}}</h2>
+	<h4>on {{post.date}}</h4>
+	<h5>{{post.content|safe}}</h5>
+{% endblock %}
